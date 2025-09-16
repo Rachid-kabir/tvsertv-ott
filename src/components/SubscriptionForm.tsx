@@ -8,12 +8,8 @@ import { z } from "zod";
 const formSchema = z.object({
     fullName: z.string().min(2, { message: "Le nom complet est requis" }),
     whatsappNumber: z.string().min(8, { message: "Numéro WhatsApp invalide" }),
-    subscription: z.enum(["1 MOIS", "3 MOIS", "6 MOIS", "12 MOIS"], {
-        required_error: "Veuillez sélectionner un abonnement",
-    }),
-    device: z.enum(["Smart TV", "Android Box", "PC/Mac", "Mobile", "Autre"], {
-        required_error: "Veuillez sélectionner un appareil",
-    }),
+    subscription: z.enum(["1 MOIS", "3 MOIS", "6 MOIS", "12 MOIS"]),
+    device: z.enum(["Smart TV", "Android Box", "PC/Mac", "Mobile", "Autre"]),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -34,8 +30,8 @@ export default function SubscriptionForm() {
         defaultValues: {
             fullName: "",
             whatsappNumber: "",
-            subscription: undefined,
-            device: undefined,
+            subscription: "1 MOIS",
+            device: "Smart TV",
         },
     });
 
