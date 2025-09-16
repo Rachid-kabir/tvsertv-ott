@@ -42,7 +42,7 @@ export const metadata: Metadata = {
         siteName: "TvseTV",
         images: [
             {
-                url: "/media/logo.png",
+                url: `${siteUrl}/media/logo.webp`,
                 width: 1200,
                 height: 630,
                 alt: "Bannière Meilleur Abonnement TV 2025",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Meilleur Abonnement TV 2025 - N°1 en France | TvseTV",
         description: "Le choix n°1 pour le streaming en France. Qualité 4K, +22 000 chaînes et VOD.",
-        images: [`${siteUrl}/media/meilleur-abonnment-tv-2025.webp`],
+        images: [`${siteUrl}/media/logo.webp`],
     },
 };
 
