@@ -17,7 +17,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 export const metadata: Metadata = {
     metadataBase: new URL(siteUrl),
     title: "Meilleur Abonnement TV 2025 - N°1 en France | TvseTV",
-    description: "Découvrez le meilleur abonnement TV en 2025. Plus de 22 000 chaînes, VOD, qualité 4K et support 24/7. Le choix numéro 1 en France pour un divertissement illimité à faible coût.",
+    description: "Découvrez le meilleur abonnement TV en 2025. Plus de 62 000 chaînes, VOD, qualité 4K et support 24/7. Le choix numéro 1 en France pour un divertissement illimité à faible coût.",
     keywords: ["abonnement TV", "IPTV", "streaming", "chaînes TV", "VOD", "TV 4K", "meilleur abonnement", "TvseTV"],
     applicationName: "TvseTV",
     alternates: {
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
         googleBot: {
             index: true,
             follow: true,
-            "max-image-preview": "large",
-            "max-snippet": -1,
-            "max-video-preview": -1,
+            maxImagePreview: "large",
+            maxSnippet: -1,
+            maxVideoPreview: -1,
         },
     },
     themeColor: "#ffffff",

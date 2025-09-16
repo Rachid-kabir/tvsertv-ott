@@ -27,7 +27,7 @@ const organizationSchema = {
     "@type": "Organization",
     name: "TvseTV",
     url: siteUrl,
-    logo: `${siteUrl}/media/favicon/android-chrome-512x512.png`,
+    logo: `${siteUrl}/logo.png`, // NOTE: You should create and place a logo.png in your /public folder
     contactPoint: {
         "@type": "ContactPoint",
         contactType: "Assistance Client",
