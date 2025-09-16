@@ -61,7 +61,7 @@ const productSchema = {
         "@type": "Product",
         name: product.name,
         description: "Accès à plus de 62 000 chaînes en qualité 4K, VOD illimitée, et compatibilité tous appareils. Le meilleur du divertissement.",
-        image: `${siteUrl}/media/selectionez-le-forfait-qui-repond-a-vos-besoins.webp`,
+        image: `${siteUrl}/media/logo.png`,
         brand: {
             "@type": "Brand",
             name: "TvseTV",

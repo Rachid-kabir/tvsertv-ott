@@ -42,7 +42,7 @@ export const metadata: Metadata = {
         siteName: "TvseTV",
         images: [
             {
-                url: "/media/meilleur-abonnment-tv-2025.webp",
+                url: "/media/logo.png",
                 width: 1200,
                 height: 630,
                 alt: "Bannière Meilleur Abonnement TV 2025",
